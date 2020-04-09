@@ -1,0 +1,59 @@
+3.14159265359,	! pi [-]
+9.81,		! g_grav [m/s2]		! gravity acceleration ! 8.3144598,	! R_universal [J/mol.K]	! Universal Gas Constant
+25.0,		! T_0     ! [C] environment/atmosphere temperature
+101.325,	! p_0     ! [kPa] environment/atm pressure
+7750.0,		! rho_mat [kg/m3]	! Density of material (steel = 7800)
+18.4,		! k_mat [W/(m.K)]	! Thermal conductivity (steel = 42.6) (Stainless Steel 17-4 = 18.4)
+
+0.90,		! eff_is [ - ]		! Isentropic Efficiency (mass flow)
+0.15,		! coef_vs [-]		! Vane Side frictional coefficient (Yanagisawa 1982)
+0.10,		! coef_vhs [-]		! Vane housing side (vane tip) frictional coefficient (Teh and Ooi 2009)
+0.0,		! coef_circ_lip [N/m]	! Tangential friction per uni circumference (K.M. Tan)		
+
+0.0129,		! miu_oil [Ns/m2 or Pa.s]	! 0.00872@100C	! 0.0188, 0.043692, or 0.0034 Oil/lubricant dynamic viscosity according to standard and supplier (40 Celsius - 0.065406) (60 - 0.027748)			! 3000.0,		! rev [rpm]		! operating speed Revolution per minute  !5275.28,	! q_load [W]		! cooling load
+991.0,		! rho_oil	[kg/m3]		! oil density	! 991.0 ! 861.0		! 991.0 comes from Shell Refrigeration Oil S4 FR-F 68
+0.00074,		! beta_oil	[1/C]	! Thermal Expansion (olive oil)	!0.0007
+2302.74,	! cp_oil	[J/kg.K]	! Specific heat capacity @100C	!2302.74
+0.15,		! k_oil		[W/m.K]		! Thermal Conductivity @100C	!0.15
+
+60.0,		! T_oil_sump [C]	! Oil reservoir temperature 
+80.0,		! T_oil_flow [C]	! Flowing Oil temperature
+
+0.0,		! rev_b [rpm]		! Bearing angular speed
+0.61,		! coef_sucport [-]	! Ports coefficient of discharge
+0.61,		! coef_discport [-]
+0.5,		! coef_vef	[-]	! vane endface clearance flow coefficient (leakage) 0.2 0.5
+0.5,		! coef_ref	[-]	! rotor endface clearance flow coefficient (leakage) 0.2 0.5
+0.5,		! coef_rad	[-]	! radial clearance flow coefficcient (leakage) 0.6 0.5
+
+8000.0,		! rho_dv [kg/m3]	! density of discharge valve reed	! 7800.0 for steel
+197.0,		! E_dv	[GN/m2 or GPa]	! Young's Modulus of dv ! 210.0 for Steel
+0.2,		! dpratio_dv [-]	! Damping Ratio
+1.0,		! coef_dv     ! coefficient to evaluate the effective force area
+0.5,		! coef_dv_back	! coefficient to evaluate the effective force area when hit the stop plate
+0.0,		! sur_tension_oil [N/m]	! interfacial surface tension of oil/lubricant, 0.012
+7.5,		! angle_oil_film ! [degree]	! contact angle of the meniscus between valve and oil film
+
+20.0,		! cl_upend    ! upper endface clearance [micron-m] 79.0,77
+1.0,		! cl_lowend   ! lower endface clearance [micron-m] 
+20.0,		! cl_vs       ! vane side clearance [micron-m]
+20.0,		! cl_rad_vh   ! vane bush radial clearance [micron-m]
+20.0,		! cl_rad_ro   ! rotor radial clearance between cylinder [micron-m]
+    
+25.0,		! cl_bear_s_up   ! upper shaft radial bearing clearance [micron-m]
+25.0,		! cl_bear_s		! lower shaft radial bearing clearance [micron-m]
+25.0,		! cl_rad_roll ! roller radial clearance between rotor [micron-m]
+
+5.0,		! cl_effef_up	! upper endface clearance of eccentric (mm)
+5.0,		! cl_effef_low	! lower endface clearance of eccentric (mm)
+
+7.2,		! t_suct_dew [C]	! Suction Dew Temperature in Celcius
+54.4,		! t_disc_dew [C]	! Discharge Dew Temperature in Celcius
+27.8,		! t_superheated [C]	! Superheated temperature at suction
+1.01325,		! p_suc_air [bar]	! Discharge pressure for air
+30.0,		! t_suc_air [C]	! Discharge temperature for air
+7.0,		! p_disc_air [bar]	! Discharge pressure for air
+50.0,		! t_disc_air [C]	! Discharge temperature for air
+
+
+0.887,		! eff_motor [-]		! Motor Efficiency

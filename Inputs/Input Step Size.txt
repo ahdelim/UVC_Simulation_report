@@ -1,0 +1,6 @@
+5000,	! Maximum number of data points wrote to file
+0.009,	! theta_step in degree normal theta_step_degree_1
+0.20,	! theta_step in degree big step theta_step_degree_low
+0.001,	! theta_step in degree small step theta_step_degree_high
+0.0,	! Start point angle (in degree) theta_start
+360.0,	! End point angle (in degree) theta_end

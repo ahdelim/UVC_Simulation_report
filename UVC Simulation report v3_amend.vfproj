@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{1BBAAEC5-427D-4808-BBF3-1486BD2657D0}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugLineInfoOnly" HeapArrays="0" WarnInterfaces="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" HeapArrays="0"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<Filter Name="FortranSource">
+		<File RelativePath=".\fortran_source\COMMONS.FOR"/>
+		<File RelativePath=".\fortran_source\COMTRN.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_ANC.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_BWR.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_CPP.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_DE.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_ECS.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_FEQ.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_MLT.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_PH0.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_PR.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_QUI.FOR"/>
+		<File RelativePath=".\fortran_source\CORE_STN.FOR"/>
+		<File RelativePath=".\fortran_source\FLASH2.FOR"/>
+		<File RelativePath=".\fortran_source\FLSH_SUB.FOR"/>
+		<File RelativePath=".\fortran_source\IDEALGAS.FOR"/>
+		<File RelativePath=".\fortran_source\MIX_AGA8.FOR"/>
+		<File RelativePath=".\fortran_source\MIX_HMX.FOR"/>
+		<File RelativePath=".\fortran_source\PASS_FTN.FOR"/>
+		<File RelativePath=".\fortran_source\PROP_SUB.FOR"/>
+		<File RelativePath=".\fortran_source\REALGAS.FOR"/>
+		<File RelativePath=".\fortran_source\SAT_SUB.FOR"/>
+		<File RelativePath=".\fortran_source\SETUP.FOR"/>
+		<File RelativePath=".\fortran_source\SETUP2.FOR"/>
+		<File RelativePath=".\fortran_source\TRNS_ECS.FOR"/>
+		<File RelativePath=".\fortran_source\TRNS_TCX.FOR"/>
+		<File RelativePath=".\fortran_source\TRNS_VIS.FOR"/>
+		<File RelativePath=".\fortran_source\TRNSP.FOR"/>
+		<File RelativePath=".\fortran_source\UTILITY.FOR"/></Filter>
+		<File RelativePath=".\Inputs\Input Error Criteria.txt"/>
+		<File RelativePath=".\Inputs\Input Main Dimensions.txt"/>
+		<File RelativePath=".\Inputs\Input Model Options.txt"/>
+		<File RelativePath=".\Inputs\Input Oil Lubrication Parameters.txt"/>
+		<File RelativePath=".\Inputs\Input Operational Parameters.txt"/>
+		<File RelativePath=".\Inputs\Input Optimization parameters.txt"/>
+		<File RelativePath=".\Inputs\Input Step Size.txt"/>
+		<File RelativePath=".\Inputs\RUNGE.RK4"/></Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\Bisection_method.f90"/>
+		<File RelativePath=".\Compressor_performance.f90"/>
+		<File RelativePath=".\Declaring_variables.f90"/>
+		<File RelativePath=".\discharge_valve_deflection.f90"/>
+		<File RelativePath=".\discharge_valve_deflection_ver2.f90"/>
+		<File RelativePath=".\discharge_valve_hit_back.f90"/>
+		<File RelativePath=".\discharge_valve_mode_shape.f90"/>
+		<File RelativePath=".\discharge_valve_mode_shape_ver2.f90"/>
+		<File RelativePath=".\discharge_valve_parameters.f90"/>
+		<File RelativePath=".\discharge_valve_parameters_ver2.f90"/>
+		<File RelativePath=".\dynamic_m2.f90"/>
+		<File RelativePath=".\Dynamic_model.f90"/>
+		<File RelativePath=".\Exergy_main.f90"/>
+		<File RelativePath=".\GA_geo_constraint_check.f90"/>
+		<File RelativePath=".\GA_main_dimension.f90"/>
+		<File RelativePath=".\GA_Optimization_main.f90"/>
+		<File RelativePath=".\GA_performance.f90"/>
+		<File RelativePath=".\GA_thermo_main.f90"/>
+		<File RelativePath=".\Gauss_elimination.f90"/>
+		<File RelativePath=".\geo_comp_gamma_1.f90"/>
+		<File RelativePath=".\geo_comp_volume.f90"/>
+		<File RelativePath=".\geo_revolution_theta_1.f90"/>
+		<File RelativePath=".\geo_revolution_theta_2.f90"/>
+		<File RelativePath=".\geo_total_volume.f90"/>
+		<File RelativePath=".\geo_vanelength.f90"/>
+		<File RelativePath=".\geometrical_model.f90"/>
+		<File RelativePath=".\Heat_transfer_model.f90"/>
+		<File RelativePath=".\indicated_work_ver1.f90"/>
+		<File RelativePath=".\journal_bear_hirani.f90"/>
+		<File RelativePath=".\journal_bearing_2.f90"/>
+		<File RelativePath=".\journal_mecc_matt.f90"/>
+		<File RelativePath=".\kine_rotor.f90"/>
+		<File RelativePath=".\kine_vane.f90"/>
+		<File RelativePath=".\kine_working_chamber.f90"/>
+		<File RelativePath=".\kinematics_model.f90"/>
+		<File RelativePath=".\leakage_channel_length.f90"/>
+		<File RelativePath=".\leakage_fanno.f90"/>
+		<File RelativePath=".\leakage_fanno_width.f90"/>
+		<File RelativePath=".\leakage_fanno_width_s_clr.f90"/>
+		<File RelativePath=".\leakage_lambda.f90"/>
+		<File RelativePath=".\leakage_model.f90"/>
+		<File RelativePath=".\leakage_orifice.f90"/>
+		<File RelativePath=".\main_dimension.f90"/>
+		<File RelativePath=".\mass_flow_discharge_1.f90"/>
+		<File RelativePath=".\mass_flow_discharge_ver2.f90"/>
+		<File RelativePath=".\mass_flow_suction.f90"/>
+		<File RelativePath=".\mass_flow_suction_ver2.f90"/>
+		<File RelativePath=".\next_prop_cv.f90"/>
+		<File RelativePath=".\next_prop_cv_d1.f90"/>
+		<File RelativePath=".\Oil_lubrication_model 180930 version 4.f90"/>
+		<File RelativePath=".\Oil_lubrication_model.f90"/>
+		<File RelativePath=".\Oil_lubrication_model_ver 4-1.f90"/>
+		<File RelativePath=".\Opening_file.f90"/>
+		<File RelativePath=".\operational_parameter.f90"/>
+		<File RelativePath=".\Optimization_exergy.f90"/>
+		<File RelativePath=".\Optimization_general.f90"/>
+		<File RelativePath=".\Optimization_geometrical.f90"/>
+		<File RelativePath=".\Optimization_main.f90"/>
+		<File RelativePath=".\Optimization_performance.f90"/>
+		<File RelativePath=".\Optimization_thermo.f90"/>
+		<File RelativePath=".\Power_model.f90"/>
+		<File RelativePath=".\Refprop_Initialization.f90"/>
+		<File RelativePath=".\refprop_rho_h.f90"/>
+		<File RelativePath=".\Runge_steps_coefficients.f90"/>
+		<File RelativePath=".\Runge_thermo_prop.f90"/>
+		<File RelativePath=".\Runge_valve.f90"/>
+		<File RelativePath=".\Runge_valve_ver2.f90"/>
+		<File RelativePath=".\simulation_parameter_step_size.f90"/>
+		<File RelativePath=".\smoothing_data.f90"/>
+		<File RelativePath=".\thermo_com_id.f90"/>
+		<File RelativePath=".\thermo_error_check.f90"/>
+		<File RelativePath=".\thermo_error_parameter.f90"/>
+		<File RelativePath=".\thermo_model.f90"/>
+		<File RelativePath=".\thermo_no_heat_leakage.f90"/>
+		<File RelativePath=".\thermo_with_heat_leakage.f90"/>
+		<File RelativePath=".\UVC_main_report v3_amend.f90"/>
+		<File RelativePath=".\UVC_simu_info_report_v3_amend.f90"/>
+		<File RelativePath=".\var_clearance.f90"/>
+		<File RelativePath=".\var_compressor_evaluation.f90"/>
+		<File RelativePath=".\var_dynamic.f90"/>
+		<File RelativePath=".\var_exergy.f90"/>
+		<File RelativePath=".\var_GA_optimization.f90"/>
+		<File RelativePath=".\var_geometrical.f90"/>
+		<File RelativePath=".\var_geometrical_diff.f90"/>
+		<File RelativePath=".\var_heat_transfer.f90"/>
+		<File RelativePath=".\var_heat_transfer_gauss.f90"/>
+		<File RelativePath=".\var_indicated_work.f90"/>
+		<File RelativePath=".\var_kinematics.f90"/>
+		<File RelativePath=".\var_leakage.f90"/>
+		<File RelativePath=".\var_Main_dimensions.f90"/>
+		<File RelativePath=".\var_operating_fluid_condition.f90"/>
+		<File RelativePath=".\var_operational_parameter.f90"/>
+		<File RelativePath=".\var_opt_parameters.f90"/>
+		<File RelativePath=".\var_optimization.f90"/>
+		<File RelativePath=".\var_physical_constants.f90"/>
+		<File RelativePath=".\var_power.f90"/>
+		<File RelativePath=".\var_reed_valve.f90"/>
+		<File RelativePath=".\var_runge_steps_coefficients.f90"/>
+		<File RelativePath=".\var_simulation_parameter.f90"/>
+		<File RelativePath=".\var_thermo.f90"/>
+		<File RelativePath=".\var_thermo_error_criterion.f90"/>
+		<File RelativePath=".\var_thermo_error_ptr.f90"/>
+		<File RelativePath=".\Working_fluid_operating_condition.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

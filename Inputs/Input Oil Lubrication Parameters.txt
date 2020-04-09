@@ -1,0 +1,29 @@
+52.0,	! [mm] h1		! [mm] Height of the path 1-2, or depth of the oil reservoir !	L12		! Height of the path 1-2, or depth of the oil reservoir
+57.0,	! [mm] L_feed_lb	! Length of feeding hole at lower bearing
+10.0,	! [mm] dia_feed_lb	! Diameter of feeding hole in lower bearing
+
+10.0,	! [mm] dia_vert_feed	! Diameter of vertical feeding hole in the shaft 
+25.5,	! [mm]	h9		! [mm] Length of path 3-9, (node 3-9) which is also the length of lower bearing (version 2) ! L310		! Length of path 3-10, which is the length of lower bearing
+61.5,	! [mm]	h36		! [mm] Length of path 3-6, (node 3-6) Length of the shaft bottom (node 3) to bottom of upper bearing (node 6) (version 2) ! L34		! Length of path 3-4, length of the shaft end to the middle feeding hole
+83.5,	! [mm]	h3		! [mm] Length of path 3-4, (node 3-4) Length of the shaft end to the top feeding hole (version 2) ! L35		! Length of path 3-5, Length of the shaft end to the top feeding hole	!22.0,	! [mm]	L45		! Length of path 4-5, roughly same as length of the bearing, but is the distance between two feeding holes
+
+7.5,	! [mm]	L_feed_radial_jour	! [mm] Length of radial feeding hole at path 4-5 (version 2) ! Length of radial feeding hole at path 4-7 and path 5-6
+3.0,	! [mm]	dia_feed_radial_jour_47	! [mm] Diameter of radial feeding hole at path 4-5 (version 2) ! Diameter of radial feeding hole at path 4-7 
+3.0,	! [mm]	dia_feed_radial_jour_56 ! Diameter of radial feeding hole at path 5-6
+
+0.3,	! [mm]	depth_sg	! Depth of the spiral groove (or diameter)
+1.0,	! [mm]	width_sg	! Width of the spiral groove (upper)
+0.4,	! [mm]	depth_sg_lower	! Depth of spiral groove at lower shaft (or diameter)
+1.5,	! [mm]	width_sg_lower	! Width of spiral groove at lower shaft
+0.4,	! [mm]	depth_sg_ecc	! Depth of eccentric spiral groove (or diameter)
+1.50,	! [mm]	width_sg_ecc	! Width of eccentric spiral groove
+8.0,	! [mm]	pitch_sg	! Pitch of the spiral groove
+5.0,	! [mm]	pitch_sg_lower	! Pitch of spiral groove at lower shaft
+5.0,	! [mm]	pitch_sg_eccentric	! Pitch of the spiral groove at eccentric
+700.0,	! [kPa]	p_reservoir		! Pressure at the housing chamber (default = p_disc = 1444.4603 for R1234yf, 500.0 for Air)
+
+5.0,	! [mm]	cl_gap_ecc_up	! Clearance gap of eccentric (upper endface)
+5.0,	! [mm]	cl_gap_ecc_low	! Clearance gap of eccentric (lowerer endface)
+
+8.0,		! num_R2 (version 2) ! Number of lower bearing feeding holes
+

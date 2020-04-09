@@ -1,0 +1,35 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Jun 20 21:46:15 2019
+        ! This source file is for reference only and may not completely
+        ! represent the generated interface used by the compiler.
+        MODULE OPTIMIZATION_REFLECTION__genmod
+          INTERFACE 
+            SUBROUTINE OPTIMIZATION_REFLECTION(ORI_EXP1,ORI_EXP2,       &
+     &ORI_EXP3,ORI_EXP4,ORI_EXP5,ORI_EXP6,ORI_EXP7,ORI_EXP8,ORI_EXP1_2, &
+     &ORI_EXP2_2,ORI_EXP3_2,ORI_EXP4_2,ORI_EXP5_2,ORI_EXP6_2,BEST_INDEX,&
+     &WORST_INDEX,BEST,WORST,ARRAY_OBJ_FUNC)
+              COMMON/OPTIMIZATION_PARA/ OPT_ORI_COMPLEX,OPT_I,OPT_RE
+                INTEGER(KIND=4) :: OPT_ORI_COMPLEX
+                INTEGER(KIND=4) :: OPT_I
+                INTEGER(KIND=4) :: OPT_RE
+              REAL(KIND=8) :: ORI_EXP1(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP2(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP3(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP4(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP5(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP6(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP7(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP8(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP1_2(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP2_2(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP3_2(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP4_2(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP5_2(1:OPT_ORI_COMPLEX)
+              REAL(KIND=8) :: ORI_EXP6_2(1:OPT_ORI_COMPLEX)
+              INTEGER(KIND=4) :: BEST_INDEX(1:1)
+              INTEGER(KIND=4) :: WORST_INDEX(1:1)
+              REAL(KIND=8) :: BEST
+              REAL(KIND=8) :: WORST
+              REAL(KIND=8) :: ARRAY_OBJ_FUNC(1:OPT_ORI_COMPLEX)
+            END SUBROUTINE OPTIMIZATION_REFLECTION
+          END INTERFACE 
+        END MODULE OPTIMIZATION_REFLECTION__genmod

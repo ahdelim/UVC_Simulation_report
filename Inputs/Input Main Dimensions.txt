@@ -1,0 +1,50 @@
+80.0,		! r_hc		[mm]	Housing Chamber Radius
+36.0,		! r_oc		[mm] 	Outer Cylinder Radius	36.00 27.0
+31.5,		! r_ro		[mm] 	Rotor Radius ! 31.627 first time   31.5 24.3
+14.5,		! t_ro		[mm] 	Rotor Thickness 14.5 9.9
+34.0,		! t_oc		[mm]	Outer Cylinder Thickness
+32.0,		! t_oc_cover [mm]	Outer Cylinder Cover Thickness
+24.5,		! t_oc_base	[mm]	Outer Cylinder Base Thickness (lower bearing thickness)
+
+9.0,		! r_vh		[mm]	Vane Head Radius
+12.5,		! r_shaft	[mm]	Shaft Radius
+25.00,		! l_bearing	[mm]	Bearing Length
+
+3.35,		! l_vh		[mm]	Length of Shoulder = l_vs_ro	!6.34 (3.35)
+11.50,		! l_v_ro	[mm]	Length of Vane attached at rotor (taken from outer diameter of rotor) (11.5)
+4.5,		! l_exposed_vh	[mm] Exposed length of vane bush in the chamber (i.e. vane bush circular part is partially exposed in chamber)
+
+4.0,		! w_vs_ro	[mm]	Width of Vane slot at the rotor (width of one side)
+6.0,		! w_v_ro	[mm]	Width of Vane attached to the rotor (thickness of the vane)
+
+1.0,			! w_vsro_gap  ! [mm] width of the gap between rotor vane slot and vane housing's vane
+3.15,			! l_vsro_gap   ! [mm] length of the gap between rotor vane slot and vane housing's vane
+
+1.0,		! w_vs_oil_path   ! [mm] width of rotor vane slot oil path (or radius)
+3.70,		! h_vs_oil_path		! [mm] height of rotor vane slot oil path
+0.5,		! l_vs_oil_path   ! [mm] length of rotor vane slot oil path
+
+35.0,		! l_com		[mm]	Length of Compressor
+25.00,		! l_ecc	[mm]	Length of eccentric 
+17.0,		! r_ecc [mm]	Eccentric radius
+
+16.5,		! dia_suc	[mm]	Suction port diameter of comp
+9.0,		! dia_disc	[mm]	discharge port diameter of comp
+
+80.0,		! length_suc	[mm]	length of suction port of comp ! 71.5 !30.36
+5.0,		! length_disc	[mm]	length of discharge port
+
+42.00,		! theta_suc_center [degree]		angle to the center line of the suction port
+327.36,		! theta_disc_center [degree]	angle to the center line of the discharge port ! 327.36
+
+12.5,		! dia_dv [mm]	Diameter of valve reed at part 1 (rounded part)
+8.0,		! w_dv	[mm]	Width of valve reed at the screw part (part 3 in the simulation)
+6.0,		! w_dv_x1	[mm]	Width of valve part 2 (the neck)
+26.0,		! l_dv_neck	[mm]	Length of the neck of valve
+0.30,		! t_dv	[mm]	Thickness of reed valve ! 0.35 prototype? 
+45.00,		! l_dv	[mm]	Total Length of reed valve (include the length used by the screw) 
+5.0,		! y_stop	[mm]	Stop plate for valve reed (where y_start (valve free end tip) will touch it first)
+
+12.5,		! w_dv_rec [mm]		Rectangular valve width
+46.12,		! l_dv_rec [mm]		Rectangular valve length (total)
+
